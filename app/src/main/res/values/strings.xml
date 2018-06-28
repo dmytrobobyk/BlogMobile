@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BlogMobile</string>
+
+    <!--LoginActivity-->
+    <string name="authorization_title">Authorization</string>
+    <string name="sign_in_button">Sign in</string>
+
+    <!--PostsListActivity-->
+    <string name="activity_posts_list_toolbar_title">Posts list</string>
+    <string name="create_post_dialog_title">Create post</string>
+    <string name="post_sent_successfully">Post sent successfully</string>
+
+    <!--CreatePostDialog-->
+    <string name="send_post_button">Send</string>
+    <string name="cancel_post_button">Cancel</string>
+
+    <!--Errors-->
+    <string name="authorization_failed">Authorization failed</string>
+    <string name="post_loading_failed">Posts loading failed</string>
+    <string name="some_error">Some error occurred</string>
+
+    <!--Facebook-->
+    <string name="facebook_app_id">877909632364821</string>
+    <string name="fb_login_protocol_scheme">fb877909632364821</string>
+
+
+</resources>

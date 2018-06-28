@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/postItemLayout"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/postTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_extra_large_24"
+        android:background="@color/header_item"
+        tools:text="Header"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_very_large_18"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="Post information"
+        android:gravity="center"
+        android:padding="16dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/recycler_divider"
+        />
+
+    <TextView
+        android:id="@+id/publicDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        tools:text="2018-07-04"
+        android:textColor="@color/textColorSecondary"
+        android:gravity="end"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        />
+
+
+    </LinearLayout>
